@@ -4,6 +4,17 @@
   <link href="./css/bootstrap.css" rel="stylesheet">
   <script src="./js/bootstrap.js"></script>
   <title>LeetCode Attack</title>
+  <style>
+  .navbar .dropdown-menu {
+    background-color: #343a40;
+  }
+  .navbar .dropdown.show a {
+    background-color: #343a40;
+  }
+  .dropdown-item {
+    color: #fff;
+  }
+  </style>
 </head>
 <body>
   <div>
@@ -20,36 +31,36 @@
             <a id="status" style="padding-left: 0px;" class="nav-link" href="#now"><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-        <a class="nav-link" href="#roundtwo">Round Two</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contest">Contest</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Categories
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#array">Array</a>
-          <a class="dropdown-item" href="#string">String</a>
-          <a class="dropdown-item" href="#math">math</a>
-          <a class="dropdown-item" href="#tree">Tree</a>
-          <a class="dropdown-item" href="#backtracking">Backtracking</a>
-          <a class="dropdown-item" href="#dfsbfs">DFS &amp; BFS</a>
-          <a class="dropdown-item" href="#dp">Dynamic Programming</a>
-          <a class="dropdown-item" href="#linkedlist">LinkedList</a>
-          <a class="dropdown-item" href="#binarysearch">Binary Search</a>
-          <a class="dropdown-item" href="#matrix">Matrix</a>
-          <a class="dropdown-item" href="#snq">Stack &amp; PriorityQueue</a>
-          <a class="dropdown-item" href="#bit">Bit Manipulation</a>
-          <a class="dropdown-item" href="#tsort">Topological Sort</a>
-          <a class="dropdown-item" href="#random">Random</a>
-          <a class="dropdown-item" href="#graph">Graph</a>
-          <a class="dropdown-item" href="#uf">Union FInd</a>
-          <a class="dropdown-item" href="#trie">Trie</a>
-          <a class="dropdown-item" href="#design">Design</a>
-        </div>
-      </li>
+            <a class="nav-link" href="#roundtwo">Round Two</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contest">Contest</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#array">Array</a>
+              <a class="dropdown-item" href="#string">String</a>
+              <a class="dropdown-item" href="#math">math</a>
+              <a class="dropdown-item" href="#tree">Tree</a>
+              <a class="dropdown-item" href="#backtracking">Backtracking</a>
+              <a class="dropdown-item" href="#dfsbfs">DFS &amp; BFS</a>
+              <a class="dropdown-item" href="#dp">Dynamic Programming</a>
+              <a class="dropdown-item" href="#linkedlist">LinkedList</a>
+              <a class="dropdown-item" href="#binarysearch">Binary Search</a>
+              <a class="dropdown-item" href="#matrix">Matrix</a>
+              <a class="dropdown-item" href="#snq">Stack &amp; PriorityQueue</a>
+              <a class="dropdown-item" href="#bit">Bit Manipulation</a>
+              <a class="dropdown-item" href="#tsort">Topological Sort</a>
+              <a class="dropdown-item" href="#random">Random</a>
+              <a class="dropdown-item" href="#graph">Graph</a>
+              <a class="dropdown-item" href="#uf">Union FInd</a>
+              <a class="dropdown-item" href="#trie">Trie</a>
+              <a class="dropdown-item" href="#design">Design</a>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
@@ -4062,7 +4073,7 @@
     </div>
   </div>
   <script>
-   document.getElementById('status').innerText = "Current Progress: " + document.getElementById('now').innerText;
+  document.getElementById('status').innerText = "Current Progress: " + document.getElementById('now').innerText;
   </script>
 </body>
 </html>
