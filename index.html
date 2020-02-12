@@ -14,6 +14,9 @@
   .dropdown-item {
     color: #fff;
   }
+  .clickable-row {
+    cursor: pointer;
+  }
   </style>
 </head>
 <body>
@@ -3174,7 +3177,7 @@
             <td>Valid Palindrome</td>
             <td><span>&#10003;</span></td>
           </tr>
-          <tr id="now" href="https://leetcode.com/problems/word-ladder/">
+          <tr id="now" class='clickable-row' data-href='https://leetcode.com/problems/word-ladder/'>
             <td>127</td>
             <td>Word Ladder</td>
             <td></td>
@@ -4078,6 +4081,12 @@
   </div>
   <script>
   document.getElementById('status').innerText = "Current Progress: " + document.getElementById('now').innerText;
+  
+  jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+      window.open($(this).data("href"), '_blank');
+    });
+  });
   </script>
 </body>
 </html>
