@@ -1,1 +1,1 @@
-Currently just a simple site that tracks my LeetCode progress, will implement more we I get the chance.
+Currently just a simple site that tracks my LeetCode progress, will implement more when I get the chance.
